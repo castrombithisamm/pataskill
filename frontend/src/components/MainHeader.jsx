@@ -35,7 +35,7 @@ const MainHeader = () => {
 						<h1>Join The Legends of The Tech World</h1>
 						<p>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
-							unde similique atque quod voluptatum perspiciatis
+							unde similique atque quod voluptatum these are well done
 						</p>
 						<Link to="/courses" className="btn lg">
 							Get Started
