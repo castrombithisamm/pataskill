@@ -35,10 +35,10 @@ const MainHeader = () => {
 						<h1>Join The Legends of The Tech World</h1>
 						<p>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
-							unde similique atque quod voluptatum perspiciatis. Hey
+							unde similique atque quod voluptatum perspiciatis
 						</p>
 						<Link to="/courses" className="btn lg">
-							Get Started Now
+							Get Started
 						</Link>
 					</div>
 					<div className="main__header-right">
