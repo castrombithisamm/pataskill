@@ -1,13 +1,14 @@
 from statistics import mode
 from turtle import title
 from django.db import models
+from django.core.validators import FileExtensionValidator
 from django.utils.html import mark_safe
 
 # Banners
 
 class Banners(models.Model):
     id = models.AutoField(primary_key=True)
-    img=models.ImageField(upload_to="banners/",  )
+    img=models.FileField(upload_to="banners/", validators=[FileExtensionValidator(['pdf', 'doc', 'svg'])] )
 
     alt_text=models.CharField(max_length=150)
     
